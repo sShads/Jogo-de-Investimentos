@@ -1,13 +1,15 @@
 # Jogo-de-Investimentos
 Projeto 2 de Orientação de Objetos
 
-- dificuldades  Começo      Meta        Investimentos
+- classe dificuldades - nivel de dificuldade do jogo
+
+Começo      Meta        Investimentos
 
 Fácil           20000       100000           10
 Médio           15000       100000           10
 Díficil         10000       100000           10
 =========================================================
-- classe Banco - bancos de escolha
+- classe Central de Investimentos - bancos de escolha
 
 Itau
 Santander
@@ -27,7 +29,7 @@ Bradesco         108-119-134%      -          -
 Nubank           103-112-125%      -          -
 Fortune Tiger    200%              -          -
 =========================================================
-- classe Chances - chance de ganhar
+- chance de ganhar
 
 banco             ganho         ganho-verdadeiro
 
@@ -36,3 +38,4 @@ Santander         86-73-55%     88-76-60%
 Bradesco          92-81-66%     93-83-71%
 Nubank            97-88-75%     97-90-82%
 Fortune Tiger     30%           30%
+
