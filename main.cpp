@@ -1,11 +1,32 @@
 #include <iostream>
 #include "CentralDeInvestimento.cpp"
-#include "Dificuldade.cpp"
+#include "Jogo.cpp"
+#include "Banco.cpp"
 using namespace std;
+
+int banco,n,dif=4;
+
+void verificarbanco(){
+    cout<<"Escolha o Banco para investir: ";
+    cin>>banco;
+    if(banco<0 || banco>5){
+        cout<<"Nao existe essa opcao"<<endl;
+        verificarbanco();
+    }
+}
+
+void verificarrendimento(){
+    cout<<"Escolha o rendimento: ";
+    cin>>n;
+    if(n<0 || n>5){
+        cout<<"Nao existe essa opcao"<<endl;
+        verificarrendimento();
+    }
+}
 
 int main(){
 
-    int n,dif=4;
+    srand(time(NULL));
 
     //escolha da dificuldade do jogo
     cout<<"Começo do jogo"<<endl<<endl<<"Escolha a dificuldade"<<endl;
@@ -16,24 +37,40 @@ int main(){
         return 0;
     }while(dif<1 || dif>3);
 
+    
+
     //inicializacao do jogo
-    CentralDeInvestimento itau("Itau",10000, 50000);
-    CentralDeInvestimento santander("Santander",5000, 40000);
-    CentralDeInvestimento bradesco("Bradesco",0, 25000);
-    CentralDeInvestimento nubank("Nubank",0, 15000);
-    CentralDeInvestimento t("Tiger",0, 50000);
-    Dificuldade D;
-    D.setDificuldade(dif);
-    cout<<endl<<"Dificuldade escolhida: "<<D.getNome()<<endl;
+    //nome do banco - maximo de rentabilidade - risco de investimento
+    Banco itau("Itau",70,6);
+    Banco Santander("Santader",25,3);
+    Banco Bradesco("Bradesco",10,1);
+
+    Banco* bancos[5];
+    bancos[0]=&itau;
+    bancos[1]=&Santander;
+    bancos[2]=&Bradesco;
+
+    Jogo J;
+    J.DefinirDificuldade(dif);
+    cout<<endl<<"Dificuldade escolhida: "<<J.getNome()<<endl;
 
     //comeco do jogo
     do{
-    cout<<"Dinheiro atual = "<<D.getDificuldade()<<endl;
-
-
-    cin>>n;
-    itau.getNomedoBanco();
-    }while(n!=0);
-    itau.getNomedoBanco();
+    cout<<endl<<endl<<"Rodada "<<J.getRodada()<<" - Dinheiro atual = "<<J.getDificuldade()<<endl<<endl;
+    for(int i=0;i<3;i++){
+        bancos[i]->atualizarbanco(i+1);
+    }
+    verificarbanco();
+    verificarrendimento();
+    if(n!=0){
+        J.setDificuldade(bancos[banco-1]->investir(n-1,J.getDificuldade()));
+    }
+    if(J.getRodada()==10){
+        break;
+    }
+    J.PassarRodada();
+    }while(n!=0 || banco!=0);
+    
+    cout<<endl<<"Dinheiro Final: "<<J.getDificuldade()<<endl;
     return 0;
 }
