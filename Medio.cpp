@@ -8,8 +8,8 @@ class Medio: public Rendimento{
     public:
 
         virtual void atualizar(int max,int risco){
-            rendimento=97+(-(3*risco) + (rand()%(max/2 + (4*risco) + 1)));
-            cout<<"Rendimento Baixo: "<<rendimento<<endl;
+            rendimento=99+(-(risco*2) + (rand()%(max*3)));
+            cout<<"Rendimento Medio: "<<rendimento-100<<"%"<<endl;
         }
 
 };

@@ -8,8 +8,14 @@ class Baixo: public Rendimento{
     public:
 
         virtual void atualizar(int max,int risco){
-            rendimento=99+(-(2*risco) + (rand()%(max/3 + (3*risco) + 1)));
-            cout<<"Rendimento Baixo: "<<rendimento<<endl;
-        }        
-
+            rendimento=100+(-(risco) + (rand()%(max)));
+            cout<<"Rendimento Baixo: "<<rendimento-100<<"%"<<endl;
+        }
+        
 };
+/*
+Banco itau("Itau",19,7);//112-142-203
+Banco Santander("Santader",14,5);//109-131-176
+Banco Bradesco("Bradesco",7,2);//105-116-139
+Banco Nubank("Nubank",4,1);//103-109-122
+*/
