@@ -39,3 +39,4 @@ Bradesco          92-81-66%     93-83-71%
 Nubank            97-88-75%     97-90-82%
 Fortune Tiger     30%           30%
 
+https://app.diagrams.net/

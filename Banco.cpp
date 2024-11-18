@@ -8,7 +8,7 @@ using namespace std;
 
 class Banco{
 
-    private:
+    protected:
 
         Rendimento* rends[3];
         Alto a;

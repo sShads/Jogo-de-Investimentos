@@ -1,5 +1,4 @@
 #include <iostream>
-#include "CentralDeInvestimento.cpp"
 #include "Jogo.cpp"
 #include "Banco.cpp"
 using namespace std;
@@ -38,7 +37,7 @@ int main(){
     }while(dif<1 || dif>3);
 
 
-    Jogo J;
+    Jogo J("Facil",10000,10);
     J.DefinirDificuldade(dif);
     rod=J.getRodada();
     cout<<endl<<"Dificuldade escolhida: "<<J.getNome()<<endl;
@@ -53,6 +52,7 @@ int main(){
 
     //inicializacao do jogo
     //nome do banco - maximo de rentabilidade - risco de investimento
+    /*
     Banco itau("Itau",19,9);//112-142-203
     Banco Santander("Santader",14,5);//109-131-176
     Banco Bradesco("Bradesco",7,2);//105-116-139
@@ -63,6 +63,7 @@ int main(){
     bancos[1]=&Santander;
     bancos[2]=&Bradesco;
     bancos[3]=&Nubank;
+    */
 
     //comeco do jogo
     for(int j=0;j<rod;j++){
@@ -72,19 +73,19 @@ int main(){
 
         cout<<endl<<"Mostrando os rendimentos maximos e minimos de cada banco"<<endl<<endl;
         for(int i=0;i<4;i++){
-            bancos[i]->tabeladerendimentos(i);
+            J.bank(i)->tabeladerendimentos(i);
         }
 
         verificarbanco();
         verificarrendimento();
 
         for(int i=0;i<4;i++){
-            bancos[i]->atualizarbanco(i+1);
+            J.bank(i)->atualizarbanco(i+1);
         }
 
         if(n==0 || banco==0)
             break;
-        J.setDificuldade(bancos[banco-1]->investir(n-1,J.getDificuldade()));
+        J.setDificuldade(J.bank(banco-1)->investir(n-1,J.getDificuldade()));
         J.PassarRodada();
 
         cout<<endl<<"Digite qualquer coisa para continuar"<<endl;

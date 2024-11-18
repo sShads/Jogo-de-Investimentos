@@ -1,14 +1,29 @@
 #pragma once
 #include <iostream>
+#include "Banco.cpp"
+#include "Rendimento.cpp"
 using namespace std;
 
 class Jogo{
-    private:
+    protected:
 
+        Banco* bancos[4];
         string dificuldade;
-        int dinheiro=10000,rodada;
+        int dinheiro,rodada;
     
     public:
+
+        Jogo(string dificuldade,int dinheiro,int rodada):
+        dificuldade{dificuldade},dinheiro{dinheiro},rodada{rodada}{
+                bancos[0]=new Banco("Itau",19,9);
+                bancos[1]=new Banco("Santader",14,5);
+                bancos[2]=new Banco("Bradesco",7,2);
+                bancos[3]=new Banco("Nubank",4,1);
+            }
+
+        Banco* bank(int n){
+            return bancos[n];
+        }
         
         void DefinirDificuldade(int dif){
             if(dif==1){
