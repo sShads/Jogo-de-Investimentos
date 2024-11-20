@@ -6,22 +6,142 @@ Escolha a dificuldade
 3-Dificil
 0-Sair
 
-1
+3
 
-Dificuldade escolhida: Facil
+Dificuldade escolhida: Dificil
 Invista nos bancos disponiveis para ganhar dinheiro
 Escolha o numero da opcao banco e depois o tipo de rendimento
 1 - Baixo
 2 - Medio
 3 - Alto
-Seu objetivo é chegar a 100000
+Seu objetivo e chegar a 100000
 Boa Sorte!
 
 Digite qualquer coisa para continuar
-0
+1
 
 ==================================
-Rodadas Restantes 20 - Dinheiro atual = 10000
+Rodadas Restantes 10 - Dinheiro atual = 10000
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 1
+Escolha o rendimento: 3
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: 2%
+Rendimento Medio: 9%
+Rendimento Alto: 14%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: -3%
+Rendimento Medio: 6%
+Rendimento Alto: 27%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: -2%
+Rendimento Medio: 9%
+Rendimento Alto: 25%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: -1%
+Rendimento Medio: -2%
+Rendimento Alto: 10%
+
+
+-------------------------------
+Banco : Itau
+Rendimento: Alto
+Valor atual do rendimento: 14%
+-------------------------------
+
+Digite qualquer coisa para continuar
+2
+
+==================================
+Rodadas Restantes 9 - Dinheiro atual = 11400
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 2
+Escolha o rendimento: 2
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: 2%
+Rendimento Medio: 21%
+Rendimento Alto: -33%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: -1%
+Rendimento Medio: -3%
+Rendimento Alto: 15%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: 0%
+Rendimento Medio: 11%
+Rendimento Alto: 2%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: 1%
+Rendimento Medio: -1%
+Rendimento Alto: 0%
+
+
+-------------------------------
+Banco : Santader
+Rendimento: Medio
+Valor atual do rendimento: -3%
+-------------------------------
+
+Digite qualquer coisa para continuar
+1
+
+==================================
+Rodadas Restantes 8 - Dinheiro atual = 11058
 ==================================
 
 
@@ -51,37 +171,37 @@ Escolha o Banco para investir: 1
 Escolha o rendimento: 1
 
 Opcao 1 - Risco 9 - Banco Itau
-Rendimento Baixo: -1%
+Rendimento Baixo: -6%
 Rendimento Medio: 17%
-Rendimento Alto: 19%
+Rendimento Alto: 86%
 
 Opcao 2 - Risco 5 - Banco Santader
-Rendimento Baixo: -2%
-Rendimento Medio: -3%
-Rendimento Alto: -3%
+Rendimento Baixo: -3%
+Rendimento Medio: 13%
+Rendimento Alto: 10%
 
 Opcao 3 - Risco 2 - Banco Bradesco
-Rendimento Baixo: -1%
-Rendimento Medio: 5%
-Rendimento Alto: 13%
+Rendimento Baixo: 4%
+Rendimento Medio: 0%
+Rendimento Alto: 10%
 
 Opcao 4 - Risco 1 - Banco Nubank
 Rendimento Baixo: 1%
-Rendimento Medio: 3%
-Rendimento Alto: 20%
+Rendimento Medio: 6%
+Rendimento Alto: 4%
 
 
 -------------------------------
 Banco : Itau
 Rendimento: Baixo
-Valor atual do rendimento: -1%
+Valor atual do rendimento: -6%
 -------------------------------
 
 Digite qualquer coisa para continuar
-0
+2
 
 ==================================
-Rodadas Restantes 19 - Dinheiro atual = 9900
+Rodadas Restantes 7 - Dinheiro atual = 10394
 ==================================
 
 
@@ -107,41 +227,41 @@ Rendimento Baixo:	-1%	---	3%
 Rendimento Medio:	-3%	---	9%
 Rendimento Alto:	-6%	---	22%
 
-Escolha o Banco para investir: 1
+Escolha o Banco para investir: 3
 Escolha o rendimento: 1
 
 Opcao 1 - Risco 9 - Banco Itau
-Rendimento Baixo: 4%
-Rendimento Medio: -13%
-Rendimento Alto: 16%
+Rendimento Baixo: 6%
+Rendimento Medio: 31%
+Rendimento Alto: 35%
 
 Opcao 2 - Risco 5 - Banco Santader
-Rendimento Baixo: -1%
-Rendimento Medio: 8%
-Rendimento Alto: -18%
+Rendimento Baixo: 6%
+Rendimento Medio: 12%
+Rendimento Alto: 50%
 
 Opcao 3 - Risco 2 - Banco Bradesco
-Rendimento Baixo: 1%
-Rendimento Medio: 14%
-Rendimento Alto: 10%
+Rendimento Baixo: 4%
+Rendimento Medio: 3%
+Rendimento Alto: -10%
 
 Opcao 4 - Risco 1 - Banco Nubank
-Rendimento Baixo: 0%
-Rendimento Medio: 8%
-Rendimento Alto: 16%
+Rendimento Baixo: 1%
+Rendimento Medio: -1%
+Rendimento Alto: 21%
 
 
 -------------------------------
-Banco : Itau
+Banco : Bradesco
 Rendimento: Baixo
 Valor atual do rendimento: 4%
 -------------------------------
 
 Digite qualquer coisa para continuar
-0
+2
 
 ==================================
-Rodadas Restantes 18 - Dinheiro atual = 10296
+Rodadas Restantes 6 - Dinheiro atual = 10809
 ==================================
 
 
@@ -167,9 +287,338 @@ Rendimento Baixo:	-1%	---	3%
 Rendimento Medio:	-3%	---	9%
 Rendimento Alto:	-6%	---	22%
 
-Escolha o Banco para investir: 0
-Escolha o rendimento: 0
+Escolha o Banco para investir: 4
+Escolha o rendimento: 2
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: -3%
+Rendimento Medio: 12%
+Rendimento Alto: 45%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: 5%
+Rendimento Medio: -4%
+Rendimento Alto: 1%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: -1%
+Rendimento Medio: 6%
+Rendimento Alto: 38%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: 1%
+Rendimento Medio: 0%
+Rendimento Alto: 10%
 
 
-Dinheiro Final: 10296
+-------------------------------
+Banco : Nubank
+Rendimento: Medio
+Valor atual do rendimento: 0%
+-------------------------------
+
+Digite qualquer coisa para continuar
+1
+
+==================================
+Rodadas Restantes 5 - Dinheiro atual = 10809
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 3
+Escolha o rendimento: 3
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: -1%
+Rendimento Medio: 5%
+Rendimento Alto: 11%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: -4%
+Rendimento Medio: 8%
+Rendimento Alto: 60%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: 2%
+Rendimento Medio: 2%
+Rendimento Alto: 16%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: -1%
+Rendimento Medio: 3%
+Rendimento Alto: 1%
+
+
+-------------------------------
+Banco : Bradesco
+Rendimento: Alto
+Valor atual do rendimento: 16%
+-------------------------------
+
+Digite qualquer coisa para continuar
+4
+
+==================================
+Rodadas Restantes 4 - Dinheiro atual = 12538
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 1
+Escolha o rendimento: 3
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: 6%
+Rendimento Medio: -10%
+Rendimento Alto: 20%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: -2%
+Rendimento Medio: -8%
+Rendimento Alto: -9%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: 0%
+Rendimento Medio: 1%
+Rendimento Alto: 37%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: -1%
+Rendimento Medio: 5%
+Rendimento Alto: -3%
+
+
+-------------------------------
+Banco : Itau
+Rendimento: Alto
+Valor atual do rendimento: 20%
+-------------------------------
+
+Digite qualquer coisa para continuar
+2
+
+==================================
+Rodadas Restantes 3 - Dinheiro atual = 15045
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 2
+Escolha o rendimento: 3
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: 5%
+Rendimento Medio: 24%
+Rendimento Alto: 75%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: 8%
+Rendimento Medio: 4%
+Rendimento Alto: 31%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: -1%
+Rendimento Medio: 11%
+Rendimento Alto: 10%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: 1%
+Rendimento Medio: 1%
+Rendimento Alto: 4%
+
+
+-------------------------------
+Banco : Santader
+Rendimento: Alto
+Valor atual do rendimento: 31%
+-------------------------------
+
+Digite qualquer coisa para continuar
+1
+
+==================================
+Rodadas Restantes 2 - Dinheiro atual = 19708
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 1
+Escolha o rendimento: 3
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: -1%
+Rendimento Medio: 9%
+Rendimento Alto: 35%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: -4%
+Rendimento Medio: 2%
+Rendimento Alto: 53%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: 4%
+Rendimento Medio: 6%
+Rendimento Alto: 29%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: 2%
+Rendimento Medio: 7%
+Rendimento Alto: -1%
+
+
+-------------------------------
+Banco : Itau
+Rendimento: Alto
+Valor atual do rendimento: 35%
+-------------------------------
+
+Digite qualquer coisa para continuar
+1
+
+==================================
+Rodadas Restantes 1 - Dinheiro atual = 26605
+==================================
+
+
+Mostrando os rendimentos maximos e minimos de cada banco
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo:	-9%	---	10%
+Rendimento Medio:	-19%	---	38%
+Rendimento Alto:	-38%	---	95%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo:	-5%	---	9%
+Rendimento Medio:	-11%	---	31%
+Rendimento Alto:	-22%	---	76%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo:	-2%	---	5%
+Rendimento Medio:	-5%	---	16%
+Rendimento Alto:	-10%	---	39%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo:	-1%	---	3%
+Rendimento Medio:	-3%	---	9%
+Rendimento Alto:	-6%	---	22%
+
+Escolha o Banco para investir: 2
+Escolha o rendimento: 2
+
+Opcao 1 - Risco 9 - Banco Itau
+Rendimento Baixo: 7%
+Rendimento Medio: 25%
+Rendimento Alto: -5%
+
+Opcao 2 - Risco 5 - Banco Santader
+Rendimento Baixo: 3%
+Rendimento Medio: 20%
+Rendimento Alto: 19%
+
+Opcao 3 - Risco 2 - Banco Bradesco
+Rendimento Baixo: 3%
+Rendimento Medio: -2%
+Rendimento Alto: 12%
+
+Opcao 4 - Risco 1 - Banco Nubank
+Rendimento Baixo: 1%
+Rendimento Medio: 3%
+Rendimento Alto: 15%
+
+
+-------------------------------
+Banco : Santader
+Rendimento: Medio
+Valor atual do rendimento: 20%
+-------------------------------
+
+Digite qualquer coisa para continuar
+1
+
+Dinheiro Final: 31926
 Você perdeu :(
