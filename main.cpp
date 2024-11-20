@@ -36,6 +36,7 @@ void verificarrendimento(){
 
 int main(){
 
+
     log.open("log.txt");
 
     srand(time(NULL));
