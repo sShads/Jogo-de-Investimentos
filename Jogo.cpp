@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 #include "Banco.cpp"
 #include "Rendimento.cpp"
 using namespace std;
@@ -60,11 +61,15 @@ class Jogo{
             return dificuldade;
         }
 
-        void fimdejogo(){
+        void fimdejogo(ofstream& log){
             cout<<endl<<"Dinheiro Final: "<<dinheiro<<endl;
-            if(dinheiro>=100000)
+            log<<endl<<"Dinheiro Final: "<<dinheiro<<endl;
+            if(dinheiro>=100000){
                 cout<<"Você ganhou!"<<endl;
-            else
+                log<<"Você ganhou!"<<endl;
+            }else{
                 cout<<"Você perdeu :("<<endl;
+                log<<"Você perdeu :("<<endl;
+            }
         }
 };

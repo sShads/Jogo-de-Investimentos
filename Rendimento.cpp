@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 class Rendimento{
@@ -15,7 +16,7 @@ class Rendimento{
       return rendimento;
     }
 
-    virtual void atualizar(int max, int risco){
+    virtual void atualizar(int max, int risco, ofstream& log){
 
     }    
 /*
