@@ -34,6 +34,8 @@ void verificarrendimento(){
     log<<endl;
 }
 
+
+
 int main(){
 
     log.open("log.txt");
